@@ -110,6 +110,4 @@ A little before lunch time, the app notifies the various employees to invite the
 - Robolectric
   
   ## Screenshot
-
-1_Auth.png 2_Map.png 3_List_restaurants.png 4_workmates.png
-5_Restaurant_choice.png 6_Settings.png 7_Settings_choice.png 8_Notification.png
+https://github.com/XP06/P7_Go4lunch/blob/main/images/1_Auth.png
