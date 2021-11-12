@@ -115,3 +115,4 @@ https://github.com/XP06/P7_Go4lunch/blob/main/images/2_Map.png
 https://github.com/XP06/P7_Go4lunch/blob/main/images/3_List_restaurants.png
 https://github.com/XP06/P7_Go4lunch/blob/main/images/4_workmates.png
 https://github.com/XP06/P7_Go4lunch/blob/main/images/5_Restaurant_choice.png
+https://github.com/XP06/P7_Go4lunch/blob/main/images/7_Settings_choice.png
