@@ -112,3 +112,4 @@ A little before lunch time, the app notifies the various employees to invite the
   ## Screenshot
 https://github.com/XP06/P7_Go4lunch/blob/main/images/1_Auth.png
 https://github.com/XP06/P7_Go4lunch/blob/main/images/2_Map.png
+https://github.com/XP06/P7_Go4lunch/blob/main/images/3_List_restaurants.png
