@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mainThemeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mainThemeColorPrimaryDark</item>
+        <item name="colorAccent">@color/mainThemeColorPrimary</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- STYLE SIGN-IN ACTIVITY -->
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mainThemeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mainThemeColorPrimaryDark</item>
+        <item name="colorAccent">@color/mainThemeColorPrimary</item>
+        <item name="android:windowBackground">@layout/scaled_background</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

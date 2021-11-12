@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurant"
+            android:textStyle="bold"
+            android:id="@+id/restaurant_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/address"
+            android:id="@+id/restaurant_address"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/is_it_open"
+            android:textStyle="italic"
+            android:id="@+id/restaurant_open_hours"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="end">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingEnd="10dp"
+            android:paddingStart="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/distance"
+                    android:id="@+id/restaurant_distance"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="end">
+
+                <TextView
+                    android:id="@+id/restaurant_number_of_person"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableStart="@drawable/baseline_perm_identity_24"
+                    android:text="@string/number_of_person" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="end">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tint="@color/quantum_yellow"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/restaurant_rate_1"
+                    app:srcCompat="@drawable/baseline_star_24"
+                    android:contentDescription="@string/rate_stars"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tint="@color/quantum_yellow"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/restaurant_rate_2"
+                    app:srcCompat="@drawable/baseline_star_24"
+                    android:contentDescription="@string/rate_stars"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tint="@color/quantum_yellow"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/restaurant_rate_3"
+                    app:srcCompat="@drawable/baseline_star_24"
+                    android:contentDescription="@string/rate_stars"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/restaurant_image"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            app:srcCompat="@drawable/back_resto"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/restaurant_image"/>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+

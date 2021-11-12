@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/settings_user_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/settings_user_image_margin"
+            app:srcCompat="@drawable/ic_allien1_"
+            android:contentDescription="@string/user_image"/>
+
+        <Button
+            android:id="@+id/settings_button_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_delete_account"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:background="@drawable/button_radius_error_color"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="@dimen/settings_delete_button_margin"
+            android:layout_marginBottom="@dimen/settings_delete_button_margin"
+            android:padding="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="@dimen/settings_line_margin"
+            android:layout_marginBottom="@dimen/settings_line_margin"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notification_text"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:layout_marginEnd="10dp">
+
+                <Switch
+                    android:id="@+id/notification_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginBottom="32dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/go4lunch_ic"
+            android:contentDescription="@string/logo" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

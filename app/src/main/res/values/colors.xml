@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //MainTheme
+    <color name="mainThemeColorPrimary">#ff5722</color>
+    <color name="mainThemeColorPrimaryDark">#c41c00</color>
+    <color name="mainThemeColorLight">#ff8a50</color>
+    <color name="mainThemeColorAccent">#bef67a</color>
+</resources>

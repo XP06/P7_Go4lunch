@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Go4Lunch</string>
+
+    //AUTHENTICATION
+    <string name="logo">logo</string>
+    <string name="error_authentication_canceled">Cancelled authentication&#8230;</string>
+    <string name="error_no_internet">no Internet connection !</string>
+    <string name="error_unknown_error">An unknown error is generated&#8230;</string>
+    <string name="fetch_failed">Fetch Failed</string>
+    <string name="your_account_will_be_disconnected">Your account will be disconnected…</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="error_not_connected" translatable="false">error_not_connected</string>
+
+    //BOTTOM MENU
+    <string name="map_view">Map View</string>
+    <string name="list_restaurant">List Restaurant</string>
+    <string name="workmates">Workmates</string>
+
+    //TOOLBAR MENU
+    <string name="search">Search</string>
+
+    //MAIN MENU
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="image_restaurant">image_restaurant</string>
+    <string name="your_lunch">YOUR LUNCH</string>
+    <string name="settings">SETTINGS</string>
+    <string name="logout">LOGOUT</string>
+    <string name="user_name">User Name</string>
+    <string name="user_mail">User Mail</string>
+    <string name="user_image">User Image</string>
+    <string name="info_no_email_found">No email found</string>
+    <string name="info_no_name_found">No name found</string>
+    <string name="no_restaurant_selected">No restaurant selected !</string>
+    <string name="restaurants_not_load">Wait until we run all the restaurants around you.</string>
+    <string name="choice_not_in_area">You have took a restaurant in an other area.</string>
+    <string name="new_restaurants_found">New restaurants have been found. We are loading them for you.</string>
+    <string name="how_many_restaurants_found">\u0020restaurants found.</string>
+
+    //POPUP PERMISSION
+    <string name="gps_not_found">GPS not found</string>
+    <string name="want_to_enable">Want to enable ?</string>
+    <string name="popup_message_choice_yes">Yes</string>
+    <string name="popup_message_choice_no">No</string>
+
+    //FACEBOOK PURPOSE
+    <string name="facebook_application_id" translatable="false">271239124842737</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb271239124842737</string>
+
+    //TWITTER
+    <string name="twitter_consumer_key" translatable="false">58aoAoH2YFboOWREoU4Qq9vIJ</string>
+    <string name="twitter_consumer_secret" translatable="false">kEtUsVzW7QdT3mpxxhUwVLzcz6RKXMuZK4E0G9RrVPipZ5SZnl</string>
+
+    //FRAGMENT RESTAURANT
+    <string name="restaurant">Restaurant</string>
+    <string name="address">Address</string>
+    <string name="is_it_open">Is it open ?</string>
+    <string name="distance">Distance</string>
+    <string name="number_of_person">(0)</string>
+    <string name="rate_stars">rate stars</string>
+    <string name="restaurant_image">Restaurant image</string>
+
+    //RESTAURANT ACTIVITY
+    <string name="call">call</string>
+    <string name="like">like</string>
+    <string name="website">website</string>
+    <string name="no_phone_number">No phone number available for this restaurant…</string>
+    <string name="not_allowed_to_call">The app was not allowed to call.</string>
+    <string name="no_website">No website available for this restaurant…</string>
+    <string name="button_choice">button_choice</string>
+
+    //WORKMATES
+    <string name="workmate_image">Workmate image</string>
+
+    //PROCESS RESTAURANT DETAILS
+    <string name="open_24_7">Open 24/7</string>
+    <string name="pattern">h.mma</string>
+    <string name="open_until">Open until \u0020</string>
+    <string name="currently_closed">Currently closed</string>
+    <string name="no_schedules_defined">No schedules defined</string>
+
+    //WORKMATES FRAGMENT
+    <string name="hasnt_decided_yet">\u0020hasn\'t decided yet.</string>
+    <string name="wants_to_eat_at">\u0020wants to eat at\u0020</string>
+    <string name="text_example" translatable="false">text example</string>
+    <string name="this_restaurant_isnt_in_your_area">This restaurant isn\'t in your area.</string>
+
+    //WORKMATES RESTAURANT ACTIVITY
+    <string name="is_joining">\u0020is joining !</string>
+
+    //AUTOCOMPLETE
+    <string name="filter_by_name">Filter by name</string>
+
+    //NOTIFICATION
+    <string name="big_content_title">Your choice for this lunch</string>
+    <string name="notification_title">Your choice for this lunch</string>
+    <string name="default_notification_channel_id" translatable="false">default notification channel id</string>
+    <string name="channel_name" translatable="false">Go4Lunch Notifications</string>
+    <string name="located_at">\u0020 located at \u0020</string>
+    <string name="with">\u0020 with \u0020</string>
+
+    //SETTINGS ACTIVITY
+    <string name="button_delete_account">Delete my account</string>
+    <string name="popup_message_confirmation_delete_account">Are you sure you want to delete your account ?</string>
+    <string name="notification_text">Daily reminder of your choice.\nIf you have selected a restaurant.</string>
+
+    // PERMISSION
+    <string name="default_web_client_id" translatable="false">webClientId.apps.googleusercontent.com</string>
+
+</resources>

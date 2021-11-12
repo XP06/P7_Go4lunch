@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="button_choice_margin">20dp</dimen>
+
+    <dimen name="header_view_image">210dp</dimen>
+    <dimen name="header_view_go4lunch_margintop">45dp</dimen>
+    <dimen name="header_view_go4lunch_sp">40sp</dimen>
+    <dimen name="header_view_user">10dp</dimen>
+    <dimen name="header_view_user_image">60dp</dimen>
+
+    <dimen name="settings_user_image_margin">60dp</dimen>
+    <dimen name="settings_line_margin">15dp</dimen>
+    <dimen name="settings_delete_button_margin">15dp</dimen>
+
+</resources>

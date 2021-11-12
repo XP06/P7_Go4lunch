@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/baseline_search_24"
+        app:tint="@color/quantum_grey"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/edittext_autocomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:hint="@string/filter_by_name"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <ImageButton
+        android:id="@+id/close_autocomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/baseline_close_24"
+        android:background="@color/fui_transparent"
+        app:tint="@color/quantum_grey"
+        tools:ignore="ContentDescription" />
+
+</FrameLayout>

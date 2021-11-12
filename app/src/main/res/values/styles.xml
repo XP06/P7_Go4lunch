@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mainThemeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mainThemeColorPrimaryDark</item>
+        <item name="colorAccent">@color/mainThemeColorAccent</item>
+    </style>
+
+    <!-- STYLE SIGN-IN ACTIVITY -->
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mainThemeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mainThemeColorPrimaryDark</item>
+        <item name="colorAccent">@color/mainThemeColorAccent</item>
+        <item name="android:windowBackground">@layout/scaled_background</item>
+    </style>
+
+    <!-- TOOLBAR THEME -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="drawerArrowStyle">@style/CustomBurger</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <!-- TOOLBAR BURGER THEME -->
+    <style name="CustomBurger" parent="Base.Widget.AppCompat.DrawerArrowToggle">>
+        <item name="color">@android:color/white</item>
+    </style>
+
+</resources>

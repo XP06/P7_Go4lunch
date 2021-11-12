@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_view_image"
+    android:id="@+id/header_view">
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/restaurant"
+    android:scaleType="centerCrop"
+    android:contentDescription="@string/image_restaurant" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_view_go4lunch_margintop"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="45sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:paddingBottom="@dimen/header_view_user">
+
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="@dimen/header_view_user_image"
+                android:layout_height="@dimen/header_view_user_image"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_allien"
+                android:contentDescription="@string/user_image"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingStart="5dp"
+                android:paddingEnd="0dp">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="19sp"/>
+
+                <TextView
+                    android:id="@+id/user_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_mail"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

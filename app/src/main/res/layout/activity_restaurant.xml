@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.RestaurantActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/restaurant_activity_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/image_restaurant"/>
+
+            <ProgressBar
+                android:id="@+id/activity_restaurant_image_progress_bar"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/restaurant_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingBottom="25dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@color/mainThemeColorPrimary">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:text="@string/restaurant"
+                    android:id="@+id/restaurant_activity_name"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    app:tint="@color/quantum_yellow"
+                    android:layout_gravity="center"
+                    android:id="@+id/restaurant_activity_rate_1"
+                    app:srcCompat="@drawable/baseline_star_24"
+                    android:contentDescription="@string/rate_stars"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tint="@color/quantum_yellow"
+                    android:layout_gravity="center"
+                    android:id="@+id/restaurant_activity_rate_2"
+                    app:srcCompat="@drawable/baseline_star_24"
+                    android:contentDescription="@string/rate_stars"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tint="@color/quantum_yellow"
+                    android:layout_gravity="center"
+                    android:id="@+id/restaurant_activity_rate_3"
+                    app:srcCompat="@drawable/baseline_star_24"
+                    android:contentDescription="@string/rate_stars"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/address"
+                android:id="@+id/restaurant_activity_address"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/call"
+                android:textColor="@color/mainThemeColorPrimary"
+                android:drawableTop="@drawable/baseline_call_24"
+                android:drawableTint="@color/mainThemeColorAccent"
+                android:drawablePadding="10dp"
+                android:background="@color/fui_transparent"
+                android:layout_marginStart="40dp"
+                android:id="@+id/restaurant_activity_button_call"
+                tools:targetApi="m" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/like"
+                android:textColor="@color/mainThemeColorPrimary"
+                android:drawableTop="@drawable/baseline_star_24"
+                android:drawableTint="@color/mainThemeColorAccent"
+                android:drawablePadding="10dp"
+                android:background="@color/fui_transparent"
+                android:layout_gravity="center"
+                android:id="@+id/restaurant_activity_button_like"
+                tools:targetApi="m" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/website"
+                android:textColor="@color/mainThemeColorPrimary"
+                android:drawableTop="@drawable/baseline_public_24"
+                android:drawableTint="@color/mainThemeColorAccent"
+                android:drawablePadding="10dp"
+                android:background="@color/fui_transparent"
+                android:layout_gravity="end"
+                android:layout_marginEnd="40dp"
+                android:id="@+id/restaurant_activity_button_website"
+                tools:targetApi="m" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/container_restaurant_activity">
+
+            <ProgressBar
+                android:id="@+id/activity_restaurant_progress_bar"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/restaurant_activity_button_choice"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:onClick="setChoice"
+        android:layout_margin="@dimen/button_choice_margin"
+        app:srcCompat="@drawable/baseline_check_circle_24"
+        app:tint="@android:color/white"
+        app:layout_anchor="@id/restaurant_desc"
+        app:layout_anchorGravity="top|right"
+        android:contentDescription="@string/button_choice"
+        tools:ignore="UsingOnClickInXml" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
